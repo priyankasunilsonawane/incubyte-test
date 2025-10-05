@@ -24,7 +24,7 @@ Before running tests, ensure you have:
 
 ### 1. Clone the Repository
 ```bash
-git clone [Your Repository URL]
+git clone [https://github.com/priyankasunilsonawane/incubyte-test.git]
 cd incubyte-test
 
 npm install
@@ -37,5 +37,8 @@ PW_HEADED=true npm run test:bdd
 ```
 
 ## 📷 Video of the Tests
-You can find the video in the repository by the name `testcaseRecording.mov`
+You can find the video in the repository by the name `testcase-recording.mov`
+
+## 📋 Test Cases Sheet
+You can find the xlsx sheet in the repository by the name `Incubyte-assignment-test-cases.xlsx`
 
