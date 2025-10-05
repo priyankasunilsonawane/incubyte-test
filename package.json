@@ -1,14 +1,17 @@
 {
-  "name": "incubyte-test",
+  "name": "parabank-playwright-bdd",
   "version": "1.0.0",
-  "description": "",
+  "description": "Playwright tests using BDD and POM for Parabank",
   "main": "index.js",
-  "scripts": {},
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "priyanka",
+  "license": "MIT",
   "devDependencies": {
-    "@playwright/test": "^1.55.1",
-    "@types/node": "^24.6.2"
+    "@playwright/test": "^1.48.2",
+    "@cucumber/cucumber": "^10.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.0"
+  },
+  "scripts": {
+    "test:bdd": "cucumber-js --require-module ts-node/register --require tests/steps/**/*.ts"
   }
 }
